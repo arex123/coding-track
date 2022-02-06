@@ -1,6 +1,6 @@
 class Solution {
     
-    //take it as an algorithm
+    //take it as an algorithm: https://www.youtube.com/watch?v=Aga-im0K5MY
     public int minimumDeletions(String s) {
         int n = s.length();
         int pre = 0;
