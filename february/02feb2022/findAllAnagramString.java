@@ -1,4 +1,5 @@
 class Solution {
+    // https://leetcode.com/problems/find-all-anagrams-in-a-string/
     public List<Integer> findAnagrams(String s, String p) {
         
         List<Integer> ans = new ArrayList<>();
@@ -34,21 +35,12 @@ class Solution {
             }else{
                 ss.put(rc,ss.get(rc)-1);
             }
-            j++;
-            
-            
+            j++;          
         }
-        
         if(pm.equals(ss)){
             ans.add(j-p.length());
             
-        }
-        
-        
-        
-        
-        return ans;
-        
-        
+        }     
+        return ans;     
     }
 }
