@@ -1,6 +1,6 @@
 class Solution {
     // 1312. Minimum Insertion Steps to Make a String Palindrome
-
+    // https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
     public int minInsertions(String s) {
         int n =s.length();
         int[][] dp = new int[n+1][n+1];
