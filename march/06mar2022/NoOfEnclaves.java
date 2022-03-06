@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/number-of-enclaves/
+
+
 class Solution {
     public int numEnclaves(int[][] grid) {
         int n=grid.length;

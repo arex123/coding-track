@@ -1,4 +1,11 @@
 // https://leetcode.com/problems/count-sub-islands/
+/*
+IDEA:
+👉 firstly remove all the non-common island
+👉 Now count the sub-islands
+'''
+*/
+
 class Solution {
     public int countSubIslands(int[][] grid1, int[][] grid2) {
         int n = grid1.length;
