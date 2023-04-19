@@ -1,7 +1,8 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.*;
-public class MyClass{
-    
-
+class HelloWorld {
+   
     //step 2 : create a node class
     public static class Node{
         int data;
