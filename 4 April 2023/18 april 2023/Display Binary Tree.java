@@ -12,6 +12,7 @@ class HelloWorld {
             this.data = data;
             this.left = left;
             this.right = right;
+            
         }
     }
     
